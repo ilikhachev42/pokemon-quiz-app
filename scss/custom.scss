@@ -16,3 +16,28 @@ $container-max-widths: (
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.quiz-body {
+
+	.quiz-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+
+		.quiz-box {
+			p {
+
+			}
+
+			.quiz-content {
+				
+				svg {
+					width: 64px;
+					height: 64px;
+					border: 2px solid $blue-500;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+}
